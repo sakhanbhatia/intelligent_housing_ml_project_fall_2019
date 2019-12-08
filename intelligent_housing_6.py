@@ -27,7 +27,7 @@ from sklearn.metrics import accuracy_score
 print("TensorFlow version: {}".format(tf.__version__))
 print("Eager execution: {}".format(tf.executing_eagerly()))
 
-file_name = 'D:\\BU Classes\\METCS767 - Machine Learning - Eric Braude\\Project\\Converted_Date_Time\\Appliance_data-full_converted_weekday_time_7days.csv'
+file_name = 'D:\\BU Classes\\METCS767 - Machine Learning - Eric Braude\\Project\\Converted_Date_Time\\Appliance_data-full_converted_weekday_time.csv'
 features = loadtxt(file_name, delimiter=',',usecols = [0,1,2,3,4,5,6,7,8,9,10], skiprows = 1) #Sun, Mon, Tue, Wed, Thu, Fri, Sat, Morning, Afternoon, Evening, Night
 labels = loadtxt(file_name, delimiter=',', usecols = [11,12,13,14,15,16,17,18,19,20], skiprows = 1) # television, fan, fridge, laptop/computer, electric heating, oven, washing machine, microwave, toaster, cooker
 
