@@ -176,10 +176,11 @@ while True:
 
 	x.shape = (1,11)
 	
-	
+	'''
 	print(x.shape)
 	print(x)
-	
+	'''
+
 	if(classifier_select == 1):
 		prediction = classifier_binary.predict(x)
 	elif(classifier_select == 2):
